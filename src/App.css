@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+/* Root and body styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  background: rgb(25, 35, 50);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h3, h4 {
+  font-size: 1.5rem;
+  color: rgb(213, 213, 216);
+}
+
+h6 {
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+  background-color: #033c3e;
+  color: #8ee4f1;
+  padding: 0.5rem;
+}
+
+h3 {
+  text-shadow:
+            -0.05rem -0.05rem 0.1rem #fff,
+            0.1rem 0.1rem 1rem #fff,
+            0 0 2rem #e30000,
+            0 0 4rem #e30000,
+            0 0 6rem #e30000,
+            0 0 8rem #e30000,
+            0 0 10rem #e30000;
+  font-family:  'Exo 2', sans-serif !important;
+  font-size: 2.5rem;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.container {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.numbers {
+  color: #8ee4f1;
+  font-weight: 900;
+}
